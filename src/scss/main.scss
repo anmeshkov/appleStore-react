@@ -8,9 +8,11 @@
 @import './components/navigation';
 @import './components/filters';
 @import './components/filter-price';
+@import './components/checkbox';
 
 // 3. Layout
 @import './layout/header';
 @import './layout/layout';
 @import './layout/sidebar';
 @import './layout/widget';
+@import './layout/filter-memory';

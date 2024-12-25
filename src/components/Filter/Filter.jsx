@@ -26,9 +26,37 @@ const Filter = () => {
           </div>
         </div>
         {/* Дополнительные фильтры */}
-        <div className="filter filter-memory">
+        <div className="filter">
           <div className="filter__title">Объем памяти</div>
-          <div className="filter__body"></div>
+          <div className="filter__body">
+            <div className="filter-memory">
+              <label className="checkbox-container">
+                <input className="visually-hidden" type="checkbox" />
+                <span className="checkmark"></span>
+                128 GB
+              </label>
+              <label className="checkbox-container">
+                <input className="visually-hidden" type="checkbox" />
+                <span className="checkmark"></span>
+                256 GB
+              </label>
+              <label className="checkbox-container">
+                <input className="visually-hidden" type="checkbox" />
+                <span className="checkmark"></span>
+                512 GB
+              </label>
+              <label className="checkbox-container">
+                <input className="visually-hidden" type="checkbox" />
+                <span className="checkmark"></span>
+                1 TB
+              </label>
+              <label className="checkbox-container">
+                <input className="visually-hidden" type="checkbox" />
+                <span className="checkmark"></span>
+                2 TB
+              </label>
+            </div>
+          </div>
         </div>
         {/* Дополнительные фильтры */}
         <div className="filter filter-color">

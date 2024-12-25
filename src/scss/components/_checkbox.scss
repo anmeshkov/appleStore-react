@@ -1,0 +1,33 @@
+.checkbox-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+}
+
+.checkmark {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid $gray-900;
+  background-color: $white-color;
+  border-radius: 0.25rem;
+  position: relative;
+}
+
+.checkbox-container input:checked+.checkmark {
+  border-color: $primary-color;
+}
+
+.checkbox-container input:checked + .checkmark::after {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 2px;
+  width: 6px;
+  height: 10px;
+  border: solid $gray-900;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
