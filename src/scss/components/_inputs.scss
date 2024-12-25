@@ -1,6 +1,5 @@
-.input-text {
-  box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  padding: 0.5rem 1rem;
+.input {
+  padding: 0.7rem 1rem;
   border: 1px solid;
   border-color: $border-color;
   border-radius: $border-radius;
@@ -9,19 +8,29 @@
   transition: all 0.15s ease-out;
 }
 
-.input-text::placeholder {
+.input::placeholder {
   color: $gray-500;
 }
 
-.input-text:focus {
+.input:focus {
   // outline: 2px solid $primary-color;
   color: $gray-700;
   outline-color: $primary-color;
   border-color: $primary-color;
 }
 
-.input-text:hover {
+.input:hover {
   color: $gray-700;
   outline-color: $primary-color;
   border-color: $primary-color;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
 }

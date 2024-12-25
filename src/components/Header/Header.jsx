@@ -20,7 +20,7 @@ const Header = () => {
         <div className="search">
           <form className="search-product-form" action="#">
             <input
-              className="input-text search-product-form__input"
+              className="input search-product-form__input"
               type="text"
               placeholder="Поиск по товарам"
             />

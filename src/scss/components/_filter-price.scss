@@ -1,0 +1,10 @@
+.filter-price {
+  display: flex;
+  justify-content: space-between;
+  gap: $spacer;
+}
+
+.input-price {
+  width: 50%;
+  box-shadow: none;
+}

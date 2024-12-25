@@ -4,9 +4,26 @@ const Filter = () => {
       <h2 className="widget__title">Фильтр</h2>
       <div className="widget__body">
         {/* Дополнительные фильтры */}
-        <div className="filter filter-price">
+        <div className="filter">
           <div className="filter__title">Цена</div>
-          <div className="filter__body"></div>
+          <div className="filter__body">
+            <div className="filter-price">
+              <input
+                className="input input-price"
+                id="min-price"
+                type="number"
+                placeholder="42"
+                min={0}
+              />
+              <input
+                className="input input-price"
+                id="max-price"
+                type="number"
+                placeholder="4232"
+                min={0}
+              />
+            </div>
+          </div>
         </div>
         {/* Дополнительные фильтры */}
         <div className="filter filter-memory">
