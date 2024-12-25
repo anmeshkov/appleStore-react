@@ -1,7 +1,9 @@
 .header {
   background: $white-color;
-  border-bottom: 1px solid $gray-300;
+  // border-bottom: 1px solid $gray-300;
   padding: 1.25rem 0;
+  box-shadow: $box-shadow-header;
+  margin-bottom: $spacer-double;
 }
 
 .header-wrapper {
@@ -14,6 +16,7 @@
 .logo {
   position: relative;
   flex: 0 0 auto;
+  line-height: 1;
 
   &__title {
     font-family: $font-family;

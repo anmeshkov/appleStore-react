@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-a, button {
+a,
+button {
   cursor: pointer;
 }
 
@@ -14,6 +15,7 @@ body {
   font-weight: 400;
   font-size: $base-font-size;
   color: $gray-900;
+  line-height: $line-height-base;
 }
 
 .container {

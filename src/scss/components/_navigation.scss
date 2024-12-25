@@ -1,0 +1,23 @@
+.nav {}
+
+.nav__list {
+  list-style: none !important;
+  display: flex;
+  flex-direction: column;
+  gap: $spacer-half;
+}
+
+.nav__item {
+}
+
+.nav__item--current {}
+
+.nav__link {
+  text-decoration: none !important;
+  color: $gray-900;
+  transition: color $transition-duration ease-in-out;
+}
+
+.nav__link:hover {
+  color: $primary-color;
+}

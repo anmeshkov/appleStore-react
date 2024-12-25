@@ -5,6 +5,10 @@
 @import './abstracts/variables';
 @import './base/base';
 @import './components/components';
+@import './components/navigation';
 
 // 3. Layout
 @import './layout/header';
+@import './layout/layout';
+@import './layout/sidebar';
+@import './layout/widget';
