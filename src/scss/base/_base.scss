@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+body {
+  background: $gray-100;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: $base-font-size;
+  color: $gray-900;
+}
+
+.container {
+  max-width: $container-max-width;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacer;
+  padding-left: $spacer;
+}
