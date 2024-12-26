@@ -9,13 +9,16 @@
 
 .nav__item {}
 
-.nav__item--current {}
+.nav__item--current {
+  font-weight: 600;
+  color: $primary-color;
+}
 
 .nav__link {
   display: inline-flex;
   width: 100%;
   text-decoration: none !important;
-  color: $gray-900;
+  color: inherit;
   transition: color $transition-duration ease-in-out;
 }
 
