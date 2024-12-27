@@ -2,6 +2,7 @@
 // Color Variables
 // =========================
 $primary-color: #007bff;
+$primary-color-dark: #0472e8;
 $secondary-color: #6c757d;
 $success-color: #28a745;
 $danger-color: #dc3545;
@@ -37,6 +38,7 @@ $line-height-base: 1.5;
 $spacer: 1rem;
 $spacer-half: $spacer / 2;
 $spacer-double: $spacer * 2;
+$spacer-sm: 0.3rem;
 
 // =========================
 // Border Variables
@@ -80,4 +82,10 @@ $breakpoint-xl: 1200px;
 $container-max-width: 1200px;
 $nav-height: 60px;
 
+// =========================
 $transition-duration: 0.15s;
+
+// =========================
+// Y-index Variables
+// =========================
+$translateY: -2px;
